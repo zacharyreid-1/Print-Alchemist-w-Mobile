@@ -25,6 +25,26 @@
                     <a href="files.html" class="nav_button">Files</a>
                     <a href="contact.html" class="nav_button">Contact</a>
                 </nav>
+                <div class="mobile_menu_toggle">
+                    <button class="mobile_toggle" id="toggleHeader" onclick="toggleHeader()">&#9776;</button>
+                </div>
+            </div>
+
+            <div class="mobile_header_content" id="toggle">
+                <nav class="mobile_nav">
+                    <a href="index.html" class="mobile_home_link mobile_link">
+                        <div class="mobile_home mobile_button">Home</div>
+                    </a>
+                    <a href="printers.html" class="mobile_printers_link mobile_link">
+                        <div class="mobile_printers mobile_button">Printers</div>
+                    </a>
+                    <a href="filament.html" class="mobile_filament_link mobile_link">
+                        <div class="mobile_filament mobile_button">Filament</div>
+                    </a>
+                    <a href="files.html" class="mobile_files_link mobile_link">
+                        <div class="mobile_files mobile_button">Files</div>
+                    </a>
+                </nav>
             </div>
         </header>
 
@@ -41,41 +61,41 @@
                 <div class="sec_one_img">
                     <div class="img_one">
                         <a href="https://atomicfilament.com/products/black-pla-filament" class="img_one_link" target="_blank">
-                            <img src="images/Filament/PLA/Black/Black_PLA.jpg" alt="Image of black PLA filament" class="img" width="75" height="113">
+                            <img src="images/Filament/PLA/Black/Black_PLA.jpg" alt="Image of black PLA filament" class="img row1_img1" width="75" height="113">
                         </a>
-                        <div>
+                        <div class="pla_color">
                             Black PLA
                         </div>
                     </div>
                     <div class="img_two">
                         <a href="https://atomicfilament.com/products/bright-white-pla-filament" class="img_two_link" target="_blank">
-                            <img src="images/Filament/PLA/White/BRIGHT_WHITE_PLA.jpg" alt="Image of white PLA filament" class="img" width="75" height="113">
+                            <img src="images/Filament/PLA/White/BRIGHT_WHITE_PLA.jpg" alt="Image of white PLA filament" class="img row1_img2" width="75" height="113">
                         </a>
-                        <div>
+                        <div class="pla_color">
                             White PLA
                         </div>
                     </div>
                     <div class="img_three">
                         <a href="https://atomicfilament.com/products/1-kg-red-pla-filament" class="img_three_link" target="_blank">
-                            <img src="images/Filament/PLA/Red/Perfect_Red.jpg" alt="Image of red PLA filament" class="img" width="75" height="113">
+                            <img src="images/Filament/PLA/Red/Perfect_Red.jpg" alt="Image of red PLA filament" class="img row1_img3" width="75" height="113">
                         </a>
-                        <div>
+                        <div class="pla_color">
                             Red PLA
                         </div>
                     </div>
                     <div class="img_four">
                         <a href="https://atomicfilament.com/products/pine-green-pla-filament" class="img_four_link" target="_blank">
-                            <img src="images/Filament/PLA/Green/PINE_GREEN_PLA.jpg" alt="Image of green PLA filement" class="img" width="75" height="113">
+                            <img src="images/Filament/PLA/Green/PINE_GREEN_PLA.jpg" alt="Image of green PLA filement" class="img row2_img1" width="75" height="113">
                         </a>
-                        <div>
+                        <div class="pla_color">
                             Green PLA
                         </div>
                     </div>
                     <div class="img_five">
                         <a href="https://atomicfilament.com/products/1-kg-blue-pla-filament" class="img_five_link" target="_blank">
-                            <img src="images/Filament/PLA/Blue/RoyalBluePLA.jpg" alt="Image of blue PLA filament" class="img" width="75" height="113">
+                            <img src="images/Filament/PLA/Blue/RoyalBluePLA.jpg" alt="Image of blue PLA filament" class="img row2_img2" width="75" height="113">
                         </a>
-                        <div>
+                        <div class="pla_color">
                             Blue PLA
                         </div>
                     </div>
@@ -95,7 +115,7 @@
                         <a href="https://atomicfilament.com/products/black-abs-filament" class="img_one_link" target="_blank">
                             <img src="images/Filament/ABS/Black/blackabs.jpg" alt="Image of black ABS filament" class="img" width="75" height="113">
                         </a>
-                        <div>
+                        <div class="abs_color">
                             Black ABS
                         </div>
                     </div>
@@ -103,7 +123,7 @@
                         <a href="https://atomicfilament.com/products/bright-white-abs-filament" class="img_two_link" target="_blank">
                             <img src="images/Filament/ABS/White/BrightWhiteABS.jpg" alt="Image of white ABS filament" class="img" width="75" height="113">
                         </a>
-                        <div>
+                        <div class="abs_color">
                             White ABS
                         </div>
                     </div>
@@ -111,7 +131,7 @@
                         <a href="https://atomicfilament.com/products/perfect-red-abs-filament" class="img_three_link" target="_blank">
                             <img src="images/Filament/ABS/Red/PerfectRedABS.jpg" alt="Image of red ABS filament" class="img" width="75" height="113">
                         </a>
-                        <div>
+                        <div class="abs_color">
                             Red ABS
                         </div>
                     </div>
@@ -119,7 +139,7 @@
                         <a href="https://atomicfilament.com/products/neon-green-uv-reactive-abs-filament" class="img_four_link" target="_blank">
                             <img src="images/Filament/ABS/Green/NeonGreenABS.jpg" alt="Image of green ABS filament" class="img" width="75" height="113">
                         </a>
-                        <div>
+                        <div class="abs_color">
                             Green ABS
                         </div>
                     </div>
@@ -127,7 +147,7 @@
                         <a href="https://atomicfilament.com/products/blue-pantone-285c-abs-filament" class="img_five_link" target="_blank">
                             <img src="images/Filament/ABS/Blue/PerfectBlueABS.jpg" alt="Image of blue ABS filament" class="img" width="75" height="113">
                         </a>
-                        <div>
+                        <div class="abs_color">
                             Blue ABS
                         </div>
                     </div>
@@ -145,41 +165,41 @@
                 <div class="sec_three_img">
                     <div class="img_one">
                         <a href="https://www.matterhackers.com/store/l/black-mh-build-series-tpu-filament-175mm-1kg/sk/MP6A4G56?rcode=PMAX_BUILDREST&gad_source=1&gclid=CjwKCAiAzPy8BhBoEiwAbnM9O7zcn1EIVxyZbL-9xjZJHFm6g9JlqPj62SHvHeo4sxZnLYdRFi8jpBoC4RgQAvD_BwE" class="img_one_link" target="_blank">
-                            <img src="images/Filament/TPU/Black/black_tpu.jpg" alt="Image of black TPU filament" class="img" width="150" height="113">
+                            <img src="images/Filament/TPU/Black/black_tpu.jpg" alt="Image of black TPU filament" class="img" width="100" height="111">
                         </a>
-                        <div>
+                        <div class="tpu_color">
                             Black TPU
                         </div>
                     </div>
                     <div class="img_two">
                         <a href="https://www.matterhackers.com/store/l/white-mh-build-series-tpu-flexible-filament-175mm-1kg/sk/M-VEP-3G9M" class="img_two_link" target="_blank">
-                            <img src="images/Filament/TPU/White/white_tpu.jpg" alt="Image of white TPU filament" class="img" width="150" height="113">
+                            <img src="images/Filament/TPU/White/white_tpu.jpg" alt="Image of white TPU filament" class="img" width="100" height="111">
                         </a>
-                        <div>
+                        <div class="tpu_color">
                             White TPU
                         </div>
                     </div>
                     <div class="img_three">
                         <a href="https://www.matterhackers.com/store/l/translucent-red-mh-build-series-tpu-flexible-filament-175mm-1kg/sk/M-M58-8STZ" class="img_three_link" target="_blank">
-                            <img src="images/Filament/TPU/Red/red_tpu.jpg" alt="Image of red TPU filament" class="img" width="150" height="113">
+                            <img src="images/Filament/TPU/Red/red_tpu.jpg" alt="Image of red TPU filament" class="img" width="100" height="111">
                         </a>
-                        <div>
+                        <div class="tpu_color">
                             Red TPU
                         </div>
                     </div>
                     <div class="img_four">
                         <a href="https://www.matterhackers.com/store/l/translucent-green-mh-build-series-tpu-flexible-filament-175mm-1kg/sk/M-HKH-HWUR" class="img_four_link" target="_blank">
-                            <img src="images/Filament/TPU/Green/green_tpu.jpg" alt="Image of green TPU filament" class="img" width="150" height="113">
+                            <img src="images/Filament/TPU/Green/green_tpu.jpg" alt="Image of green TPU filament" class="img" width="100" height="111">
                         </a>
-                        <div>
+                        <div class="tpu_color">
                             Green TPU
                         </div>
                     </div>
                     <div class="img_five">
                         <a href="https://www.matterhackers.com/store/l/translucent-blue-mh-build-series-tpu-flexible-filament-175mm-1kg/sk/M-5UR-PMFA" class="img_five_link" target="_blank">
-                            <img src="images/Filament/TPU/Blue/blue_tpu.jpg" alt="Image of blue TPU filament" class="img" width="150" height="113">
+                            <img src="images/Filament/TPU/Blue/blue_tpu.jpg" alt="Image of blue TPU filament" class="img" width="100" height="111">
                         </a>
-                        <div>
+                        <div class="tpu_color">
                             Blue TPU
                         </div>
                     </div>
@@ -211,6 +231,19 @@
                 </div>
             </div>
         </footer>
+
+        <script>
+
+            function toggleHeader(){
+
+                let toggle = document.getElementById('toggle');
+                toggle.classList.toggle('remove-header');
+
+            }
+            
+
+        </script>
+
     </body>
 
 </html>

@@ -122,6 +122,7 @@ main a img:hover{
     .header_content{
         display: flex;
         justify-content: space-between;
+        align-items: center;
         padding-right: 10px;
     }
 
