@@ -157,13 +157,15 @@ body{
     body{
         background-image: url("../images/trianglify-lowres.png");
         background-repeat: no-repeat;
-        min-height: 100vh;
+        background-position: center;
+        min-height: 100dvh;
     }
 
     /* header */
     .header_content{
         display: flex;
         justify-content: space-between;
+        padding-right: 10px;
     }
 
     .header_nav{
