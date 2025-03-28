@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Free information and files for 3d printers">
+        <meta name="keywords" content="3d, printers, 3d printers">
+        <meta name="author" content="Zachary Reid">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles/index.css">
+
+        <title>Print Alchemist</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="header_content">
+                <a href="index.html" class="header_img_link">
+                    <img src="images/Print_Alchemist_Beaker%20(2).png" alt="Image of logo in header" class="header_img" width="197" height="75">
+                </a>
+                <nav class="header_nav">
+                    <a href="printers.html" class="nav_button">Printers</a>
+                    <a href="filament.html" class="nav_button">Filament</a>
+                    <a href="files.html" class="nav_button">Files</a>
+                    <a href="contact.html" class="nav_button">Contact</a>
+                </nav>
+                <div class="mobile_menu_toggle">
+                    <button class="mobile_toggle" id="toggleHeader" onclick="toggleHeader()">&#9776;</button>
+                </div>
+            </div>
+
+            <div class="mobile_header_content" id="toggle">
+                <nav class="mobile_nav">
+                    <a href="index.html" class="mobile_home_link mobile_link">
+                        <div class="mobile_home mobile_button">Home</div>
+                    </a>
+                    <a href="printers.html" class="mobile_printers_link mobile_link">
+                        <div class="mobile_printers mobile_button">Printers</div>
+                    </a>
+                    <a href="filament.html" class="mobile_filament_link mobile_link">
+                        <div class="mobile_filament mobile_button">Filament</div>
+                    </a>
+                    <a href="files.html" class="mobile_files_link mobile_link">
+                        <div class="mobile_files mobile_button">Files</div>
+                    </a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="sec_top">
+                <div class="logo">
+                    <img src="images/Print_Alchemist_FINAL_Logo.drawio-removebg-preview.png" alt="Primary Logo" class="logo_img" width="500" height="385">
+                </div>
+            </div>
+            <div class="sec_bottom">
+                <div class="left_button">
+                    <button class="left">&lt;</button>
+                </div>
+                <div class="img_gallery">
+                    <div class="gallery">
+                        <a href="files.html#lanyard_clip_img" class="lanyard_clip_link">
+                            <img src="images/Files/6/Lanyard_Piece_Cropped.png" alt="Image of lanyard clip file" class="lanyard_clip" width="250" height="250">
+                        </a>
+                    </div>
+                    <div class="gallery">
+                        <a href="files.html#headset_holder_img" class="headphone_holder_link">
+                            <img src="images/Files/5/Headset_Holder_Cropped.png" alt="Image of headphone holder file" class="headphone_holder" width="250" height="250">
+                        </a>
+                    </div>
+                    <div class="gallery">
+                        <a href="files.html#battery_pack_img" class="wall_mount_link">
+                            <img src="images/Files/1/Battery_Pack_Bracket_Cropped.png" alt="Images of AA battery wall-mount file" class="wall_mount" width="250" height="250">
+                        </a>
+                    </div>
+                    <div class="gallery">
+                        <a href="files.html#phone_stand_img" class="phone_stand_link">
+                            <img src="images/Files/2/Phone_Stand_Cropped.png" alt="Image of phone stand file" class="phone_stand" width="250" height="250">
+                        </a>
+                    </div>
+                    <div class="gallery">
+                        <a href="files.html#gear_img" class="gear_link">
+                            <img src="images/Files/3/Gear_Cropped.png" alt="Image of gear file" class="gear" width="250" height="250">
+                        </a>
+                    </div>
+                </div>
+                <div class="right_button">
+                    <button class="right">&gt;</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer_content">
+                <div class="sec_copyright">
+                    <p class="copyright">&copy; Print Alchemist</p>
+                </div>
+                <div class="sec_social">
+                    <div class="mail">
+                        <a href="contact.html" class="mail_link">
+                            <img src="images/Icons/envelope.png" alt="Envelope Icon" class="mail_img" width="50" height="50">
+                        </a>
+                    </div>
+                    <div class="linkedin">
+                        <a href="https://www.linkedin.com/in/zachary-reid-3b7ab7299/" class="linkedin_link" target="_blank">
+                            <img src="images/Icons/linkedin.png" alt="LinkedIn Icon" class="linkedin_img" width="50" height="50">
+                        </a>
+                    </div>
+                    <div class="github">
+                        <a href="https://github.com/zacharyreid-1" class="github_link" target="_blank">
+                            <img src="images/Icons/github.png" alt="Github Icon" class="github_img" width="50" height="50">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+
+            function toggleHeader(){
+
+                let toggle = document.getElementById('toggle');
+                toggle.classList.toggle('remove-header');
+
+            }
+            
+
+        </script>
+
+    </body>
+
+</html>
