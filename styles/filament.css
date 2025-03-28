@@ -205,6 +205,10 @@ main{
         display: none;
     }
 
+    .img:hover{
+        transform: scale(1);
+    }
+
     /* footer */
     footer{
         padding: 10%;
