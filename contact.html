@@ -25,6 +25,26 @@
                     <a href="files.html" class="nav_button">Files</a>
                     <a href="contact.html" class="nav_button">Contact</a>
                 </nav>
+                <div class="mobile_menu_toggle">
+                    <button class="mobile_toggle" id="toggleHeader" onclick="toggleHeader()">&#9776;</button>
+                </div>
+            </div>
+
+            <div class="mobile_header_content" id="toggle">
+                <nav class="mobile_nav">
+                    <a href="index.html" class="mobile_home_link mobile_link">
+                        <div class="mobile_home mobile_button">Home</div>
+                    </a>
+                    <a href="printers.html" class="mobile_printers_link mobile_link">
+                        <div class="mobile_printers mobile_button">Printers</div>
+                    </a>
+                    <a href="filament.html" class="mobile_filament_link mobile_link">
+                        <div class="mobile_filament mobile_button">Filament</div>
+                    </a>
+                    <a href="files.html" class="mobile_files_link mobile_link">
+                        <div class="mobile_files mobile_button">Files</div>
+                    </a>
+                </nav>
             </div>
         </header>
 
@@ -76,6 +96,19 @@
                 </div>
             </div>
         </footer>
+
+        <script>
+
+            function toggleHeader(){
+
+                let toggle = document.getElementById('toggle');
+                toggle.classList.toggle('remove-header');
+
+            }
+            
+
+        </script>
+
     </body>
 
 </html>
